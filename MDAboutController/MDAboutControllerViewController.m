@@ -7,11 +7,13 @@
 //
 
 #import "MDAboutControllerViewController.h"
+#import "MDAboutController.h"
 
 @implementation MDAboutControllerViewController
 
 - (void)dealloc
 {
+    [aboutController release];
     [super dealloc];
 }
 
@@ -46,4 +48,11 @@
     return YES;
 }
 
+- (IBAction)showAbout:(id)sender {
+    if (!aboutController) {
+        aboutController = [[MDAboutController alloc] init];
+    }
+    
+    [self presentModalViewController:aboutController animated:YES];
+}
 @end

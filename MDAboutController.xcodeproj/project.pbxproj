@@ -16,6 +16,7 @@
 		652F7EA8135CEF3900B24FF3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EA6135CEF3900B24FF3 /* MainWindow.xib */; };
 		652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */; };
 		652F7EAE135CEF3900B24FF3 /* MDAboutControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */; };
+		652F7EB6135CEFDA00B24FF3 /* MDAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		652F7E94135CEF3800B24FF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		652F7E96135CEF3800B24FF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		652F7E98135CEF3800B24FF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		652F7E9C135CEF3900B24FF3 /* MDAboutController-Info.plist */ = {isa = PBXFileReference; path = "MDAboutController-Info.plist"; sourceTree = "<group>"; };
+		652F7E9C135CEF3900B24FF3 /* MDAboutController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDAboutController-Info.plist"; sourceTree = "<group>"; };
 		652F7E9E135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */ = {isa = PBXFileReference; path = "MDAboutController-Prefix.pch"; sourceTree = "<group>"; };
+		652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDAboutController-Prefix.pch"; sourceTree = "<group>"; };
 		652F7EA1135CEF3900B24FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		652F7EA3135CEF3900B24FF3 /* MDAboutControllerAppDelegate.h */ = {isa = PBXFileReference; path = MDAboutControllerAppDelegate.h; sourceTree = "<group>"; };
+		652F7EA3135CEF3900B24FF3 /* MDAboutControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerAppDelegate.h; sourceTree = "<group>"; };
 		652F7EA4135CEF3900B24FF3 /* MDAboutControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerAppDelegate.m; sourceTree = "<group>"; };
 		652F7EA7135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */ = {isa = PBXFileReference; path = MDAboutControllerViewController.h; sourceTree = "<group>"; };
+		652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerViewController.h; sourceTree = "<group>"; };
 		652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerViewController.m; sourceTree = "<group>"; };
 		652F7EAD135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDAboutControllerViewController.xib; sourceTree = "<group>"; };
+		652F7EB4135CEFDA00B24FF3 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
+		652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */,
 				652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */,
 				652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */,
+				652F7EB4135CEFDA00B24FF3 /* MDAboutController.h */,
+				652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */,
 				652F7E9B135CEF3900B24FF3 /* Supporting Files */,
 			);
 			path = MDAboutController;
@@ -167,6 +172,7 @@
 				652F7EA2135CEF3900B24FF3 /* main.m in Sources */,
 				652F7EA5135CEF3900B24FF3 /* MDAboutControllerAppDelegate.m in Sources */,
 				652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */,
+				652F7EB6135CEFDA00B24FF3 /* MDAboutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +250,7 @@
 				GCC_PREFIX_HEADER = "MDAboutController/MDAboutController-Prefix.pch";
 				INFOPLIST_FILE = "MDAboutController/MDAboutController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,6 +264,7 @@
 				GCC_PREFIX_HEADER = "MDAboutController/MDAboutController-Prefix.pch";
 				INFOPLIST_FILE = "MDAboutController/MDAboutController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
