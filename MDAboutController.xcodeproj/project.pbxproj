@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		650BD3C7135F86490018CEE4 /* MDACBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3C5135F86490018CEE4 /* MDACBackground.png */; };
-		650BD3C8135F86490018CEE4 /* MDACBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3C6135F86490018CEE4 /* MDACBackground@2x.png */; };
-		650BD3CC135F88580018CEE4 /* MDACTitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3CA135F88580018CEE4 /* MDACTitleBar.png */; };
-		650BD3CD135F88580018CEE4 /* MDACTitleBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3CB135F88580018CEE4 /* MDACTitleBar@2x.png */; };
-		650BD3D2135F8AC60018CEE4 /* MDACDoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3CE135F8AC60018CEE4 /* MDACDoneButton.png */; };
-		650BD3D3135F8AC60018CEE4 /* MDACDoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3CF135F8AC60018CEE4 /* MDACDoneButton@2x.png */; };
-		650BD3D4135F8AC60018CEE4 /* MDACDoneButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3D0135F8AC60018CEE4 /* MDACDoneButtonPressed.png */; };
-		650BD3D5135F8AC60018CEE4 /* MDACDoneButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BD3D1135F8AC60018CEE4 /* MDACDoneButtonPressed@2x.png */; };
+		65262AC1135FA02500F99CB5 /* MDAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65262AB7135FA02500F99CB5 /* MDAboutController.m */; };
+		65262AC2135FA02500F99CB5 /* MDACBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262AB9135FA02500F99CB5 /* MDACBackground.png */; };
+		65262AC3135FA02500F99CB5 /* MDACBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABA135FA02500F99CB5 /* MDACBackground@2x.png */; };
+		65262AC4135FA02500F99CB5 /* MDACDoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABB135FA02500F99CB5 /* MDACDoneButton.png */; };
+		65262AC5135FA02500F99CB5 /* MDACDoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABC135FA02500F99CB5 /* MDACDoneButton@2x.png */; };
+		65262AC6135FA02500F99CB5 /* MDACDoneButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABD135FA02500F99CB5 /* MDACDoneButtonPressed.png */; };
+		65262AC7135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABE135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png */; };
+		65262AC8135FA02500F99CB5 /* MDACTitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABF135FA02500F99CB5 /* MDACTitleBar.png */; };
+		65262AC9135FA02500F99CB5 /* MDACTitleBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262AC0135FA02500F99CB5 /* MDACTitleBar@2x.png */; };
 		652F7E95135CEF3800B24FF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7E94135CEF3800B24FF3 /* UIKit.framework */; };
 		652F7E97135CEF3800B24FF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7E96135CEF3800B24FF3 /* Foundation.framework */; };
 		652F7E99135CEF3800B24FF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7E98135CEF3800B24FF3 /* CoreGraphics.framework */; };
@@ -24,18 +25,19 @@
 		652F7EA8135CEF3900B24FF3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EA6135CEF3900B24FF3 /* MainWindow.xib */; };
 		652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */; };
 		652F7EAE135CEF3900B24FF3 /* MDAboutControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */; };
-		652F7EB6135CEFDA00B24FF3 /* MDAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		650BD3C5135F86490018CEE4 /* MDACBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACBackground.png; sourceTree = "<group>"; };
-		650BD3C6135F86490018CEE4 /* MDACBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACBackground@2x.png"; sourceTree = "<group>"; };
-		650BD3CA135F88580018CEE4 /* MDACTitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACTitleBar.png; sourceTree = "<group>"; };
-		650BD3CB135F88580018CEE4 /* MDACTitleBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACTitleBar@2x.png"; sourceTree = "<group>"; };
-		650BD3CE135F8AC60018CEE4 /* MDACDoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDoneButton.png; sourceTree = "<group>"; };
-		650BD3CF135F8AC60018CEE4 /* MDACDoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDoneButton@2x.png"; sourceTree = "<group>"; };
-		650BD3D0135F8AC60018CEE4 /* MDACDoneButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDoneButtonPressed.png; sourceTree = "<group>"; };
-		650BD3D1135F8AC60018CEE4 /* MDACDoneButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDoneButtonPressed@2x.png"; sourceTree = "<group>"; };
+		65262AB6135FA02500F99CB5 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
+		65262AB7135FA02500F99CB5 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
+		65262AB9135FA02500F99CB5 /* MDACBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACBackground.png; sourceTree = "<group>"; };
+		65262ABA135FA02500F99CB5 /* MDACBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACBackground@2x.png"; sourceTree = "<group>"; };
+		65262ABB135FA02500F99CB5 /* MDACDoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDoneButton.png; sourceTree = "<group>"; };
+		65262ABC135FA02500F99CB5 /* MDACDoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDoneButton@2x.png"; sourceTree = "<group>"; };
+		65262ABD135FA02500F99CB5 /* MDACDoneButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDoneButtonPressed.png; sourceTree = "<group>"; };
+		65262ABE135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDoneButtonPressed@2x.png"; sourceTree = "<group>"; };
+		65262ABF135FA02500F99CB5 /* MDACTitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACTitleBar.png; sourceTree = "<group>"; };
+		65262AC0135FA02500F99CB5 /* MDACTitleBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACTitleBar@2x.png"; sourceTree = "<group>"; };
 		652F7E90135CEF3800B24FF3 /* MDAboutController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDAboutController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652F7E94135CEF3800B24FF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		652F7E96135CEF3800B24FF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerViewController.h; sourceTree = "<group>"; };
 		652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerViewController.m; sourceTree = "<group>"; };
 		652F7EAD135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDAboutControllerViewController.xib; sourceTree = "<group>"; };
-		652F7EB4135CEFDA00B24FF3 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
-		652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +68,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		650BD3C4135F86490018CEE4 /* Images */ = {
+		65262AB4135FA02500F99CB5 /* MDAboutController */ = {
 			isa = PBXGroup;
 			children = (
-				650BD3CE135F8AC60018CEE4 /* MDACDoneButton.png */,
-				650BD3CF135F8AC60018CEE4 /* MDACDoneButton@2x.png */,
-				650BD3D0135F8AC60018CEE4 /* MDACDoneButtonPressed.png */,
-				650BD3D1135F8AC60018CEE4 /* MDACDoneButtonPressed@2x.png */,
-				650BD3CA135F88580018CEE4 /* MDACTitleBar.png */,
-				650BD3CB135F88580018CEE4 /* MDACTitleBar@2x.png */,
-				650BD3C5135F86490018CEE4 /* MDACBackground.png */,
-				650BD3C6135F86490018CEE4 /* MDACBackground@2x.png */,
+				65262AB5135FA02500F99CB5 /* Classes */,
+				65262AB8135FA02500F99CB5 /* Images */,
+			);
+			path = MDAboutController;
+			sourceTree = "<group>";
+		};
+		65262AB5135FA02500F99CB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65262AB6135FA02500F99CB5 /* MDAboutController.h */,
+				65262AB7135FA02500F99CB5 /* MDAboutController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65262AB8135FA02500F99CB5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65262AB9135FA02500F99CB5 /* MDACBackground.png */,
+				65262ABA135FA02500F99CB5 /* MDACBackground@2x.png */,
+				65262ABB135FA02500F99CB5 /* MDACDoneButton.png */,
+				65262ABC135FA02500F99CB5 /* MDACDoneButton@2x.png */,
+				65262ABD135FA02500F99CB5 /* MDACDoneButtonPressed.png */,
+				65262ABE135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png */,
+				65262ABF135FA02500F99CB5 /* MDACTitleBar.png */,
+				65262AC0135FA02500F99CB5 /* MDACTitleBar@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -119,8 +137,7 @@
 				652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */,
 				652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */,
 				652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */,
-				652F7EB4135CEFDA00B24FF3 /* MDAboutController.h */,
-				652F7EB5135CEFDA00B24FF3 /* MDAboutController.m */,
+				65262AB4135FA02500F99CB5 /* MDAboutController */,
 				652F7E9B135CEF3900B24FF3 /* Supporting Files */,
 			);
 			path = MDAboutController;
@@ -129,7 +146,6 @@
 		652F7E9B135CEF3900B24FF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				650BD3C4135F86490018CEE4 /* Images */,
 				652F7E9C135CEF3900B24FF3 /* MDAboutController-Info.plist */,
 				652F7E9D135CEF3900B24FF3 /* InfoPlist.strings */,
 				652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */,
@@ -191,14 +207,14 @@
 				652F7E9F135CEF3900B24FF3 /* InfoPlist.strings in Resources */,
 				652F7EA8135CEF3900B24FF3 /* MainWindow.xib in Resources */,
 				652F7EAE135CEF3900B24FF3 /* MDAboutControllerViewController.xib in Resources */,
-				650BD3C7135F86490018CEE4 /* MDACBackground.png in Resources */,
-				650BD3C8135F86490018CEE4 /* MDACBackground@2x.png in Resources */,
-				650BD3CC135F88580018CEE4 /* MDACTitleBar.png in Resources */,
-				650BD3CD135F88580018CEE4 /* MDACTitleBar@2x.png in Resources */,
-				650BD3D2135F8AC60018CEE4 /* MDACDoneButton.png in Resources */,
-				650BD3D3135F8AC60018CEE4 /* MDACDoneButton@2x.png in Resources */,
-				650BD3D4135F8AC60018CEE4 /* MDACDoneButtonPressed.png in Resources */,
-				650BD3D5135F8AC60018CEE4 /* MDACDoneButtonPressed@2x.png in Resources */,
+				65262AC2135FA02500F99CB5 /* MDACBackground.png in Resources */,
+				65262AC3135FA02500F99CB5 /* MDACBackground@2x.png in Resources */,
+				65262AC4135FA02500F99CB5 /* MDACDoneButton.png in Resources */,
+				65262AC5135FA02500F99CB5 /* MDACDoneButton@2x.png in Resources */,
+				65262AC6135FA02500F99CB5 /* MDACDoneButtonPressed.png in Resources */,
+				65262AC7135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png in Resources */,
+				65262AC8135FA02500F99CB5 /* MDACTitleBar.png in Resources */,
+				65262AC9135FA02500F99CB5 /* MDACTitleBar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +228,7 @@
 				652F7EA2135CEF3900B24FF3 /* main.m in Sources */,
 				652F7EA5135CEF3900B24FF3 /* MDAboutControllerAppDelegate.m in Sources */,
 				652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */,
-				652F7EB6135CEFDA00B24FF3 /* MDAboutController.m in Sources */,
+				65262AC1135FA02500F99CB5 /* MDAboutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
