@@ -1,0 +1,3 @@
+[submodule "MDAboutController/MDAboutController"]
+	path = MDAboutController/MDAboutController
+	url = git@github.com:mochidev/MDAboutController.git
