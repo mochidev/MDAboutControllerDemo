@@ -8,6 +8,59 @@
 
 #import "MDAboutController.h"
 
+@interface MDACTitleBar : UIView {
+    UILabel *title;
+    UIButton *doneButton;
+    
+    UIImageView *background;
+}
+
+- (id)initWithController:(MDAboutController *)controller;
+
+@end
+
+@implementation MDACTitleBar
+
+- (id)initWithController:(MDAboutController *)controller
+{
+    if ((self = [super initWithFrame:CGRectMake(0, 0, 320, 44)])) {
+        background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 59)];
+        background.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        background.image = [UIImage imageNamed:@"MDACTitleBar.png"];
+        background.contentMode = UIViewContentModeScaleToFill;
+        [self addSubview:background];
+        [background release];
+        
+        title = [[UILabel alloc] initWithFrame:self.bounds];
+        title.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        title.backgroundColor = nil;
+        title.opaque = NO;
+        title.textAlignment = UITextAlignmentCenter;
+        title.textColor = [UIColor whiteColor];
+        title.text = @"About";
+        title.font = [UIFont boldSystemFontOfSize:20];
+        title.shadowColor = [UIColor colorWithWhite:0 alpha:0.6];
+        title.shadowOffset = CGSizeMake(0, -1);
+        [self addSubview:title];
+        [title release];
+        
+        doneButton = [[UIButton alloc] initWithFrame:CGRectMake(self.bounds.size.width-55, 7, 50, 30)];
+        doneButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+        [doneButton setBackgroundImage:[UIImage imageNamed:@"MDACDoneButton.png"] forState:UIControlStateNormal];
+        [doneButton setBackgroundImage:[UIImage imageNamed:@"MDACDoneButtonPressed.png"] forState:UIControlStateHighlighted];
+        [doneButton setTitle:@"Done" forState:UIControlStateNormal];
+        [doneButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [doneButton setTitleShadowColor:[UIColor colorWithWhite:0 alpha:0.6] forState:UIControlStateNormal];
+        doneButton.titleLabel.font = [UIFont boldSystemFontOfSize:12];
+        doneButton.titleLabel.shadowOffset = CGSizeMake(0, -1);
+        [doneButton addTarget:controller action:@selector(dismiss:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:doneButton];
+        [doneButton release];
+    }
+    return self;
+}
+
+@end 
 
 @implementation MDAboutController
 
@@ -35,6 +88,23 @@
 
 #pragma mark - View lifecycle
 
+- (UITableViewCell *)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (!cell) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
+    }
+    
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
+}
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView
@@ -43,17 +113,18 @@
     self.view = rootView;
     [rootView release];
     
-    navBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
-    navBar.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleWidth;
-    [rootView addSubview:navBar];
-    [navBar release];
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 44, rootView.bounds.size.width, rootView.bounds.size.height-44) style:UITableViewStylePlain];
+    tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
+    tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MDACBackground.png"]];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [rootView addSubview:tableView];
+    [tableView release];
     
-    UINavigationItem *navItem = [[UINavigationItem alloc] initWithTitle:@"About"];
-    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismiss:)];
-    navItem.rightBarButtonItem = doneButton;
-    [doneButton release];
-    [navBar pushNavigationItem:navItem animated:NO];
-    [navItem release];
+    titleBar = [[MDACTitleBar alloc] initWithController:self];
+    titleBar.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleWidth;
+    [rootView addSubview:titleBar];
+    [titleBar release];
 }
 
 - (void)dismiss:(id)sender

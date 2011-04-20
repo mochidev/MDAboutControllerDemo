@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MDACTitleBar;
 
-
-@interface MDAboutController : UIViewController {
-    UINavigationBar *navBar;
+@interface MDAboutController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    MDACTitleBar *titleBar;
     UITableView *tableView;
 }
+
+- (void)dismiss:(id)sender;
 
 @end
