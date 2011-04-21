@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>List</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Dimitri Bouniol</string>
+				<key>Role</key>
+				<string>Developer</string>
+				<key>Link</key>
+				<string>http://twitter.com/dimitribouniol</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Dimitri Bouniol</string>
+				<key>Role</key>
+				<string>Designer</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Mochi Dev</string>
+				<key>Role</key>
+				<string>Publisher</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>List</string>
+		<key>Title</key>
+		<string>Links</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>EleMints</string>
+				<key>Link</key>
+				<string>http://elemintsapp.com/</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Mochi Development, Inc.</string>
+				<key>Link</key>
+				<string>http://mochidev.com/</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>MDAboutController</string>
+				<key>Link</key>
+				<string>https://github.com/mochidev/MDAboutControllerDemo</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Text</string>
+		<key>Text</key>
+		<string>MDAboutController is a complete About UIViewController package for iOS apps. It automatically fetches info from your Info.plist, and also populates credits from Credits.plist. This repository serves to demonstrate and test the MDAboutController class. Please visit the [MDAboutController](https://github.com/mochidev/MDAboutController) repository for the actual code :)</string>
+		<key>Alignment</key>
+		<string>Center</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Image</string>
+		<key>Image</key>
+		<string>logo.png</string>
+	</dict>
+</array>
+</plist>

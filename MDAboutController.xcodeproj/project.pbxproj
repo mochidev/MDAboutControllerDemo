@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6525E0891360071900E70F9D /* Credits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6525E0881360071900E70F9D /* Credits.plist */; };
 		65262AC1135FA02500F99CB5 /* MDAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65262AB7135FA02500F99CB5 /* MDAboutController.m */; };
 		65262AC2135FA02500F99CB5 /* MDACBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262AB9135FA02500F99CB5 /* MDACBackground.png */; };
 		65262AC3135FA02500F99CB5 /* MDACBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262ABA135FA02500F99CB5 /* MDACBackground@2x.png */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6525E0881360071900E70F9D /* Credits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credits.plist; sourceTree = "<group>"; };
 		65262AB6135FA02500F99CB5 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
 		65262AB7135FA02500F99CB5 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
 		65262AB9135FA02500F99CB5 /* MDACBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACBackground.png; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				652F7E9D135CEF3900B24FF3 /* InfoPlist.strings */,
 				652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */,
 				652F7EA1135CEF3900B24FF3 /* main.m */,
+				6525E0881360071900E70F9D /* Credits.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				65262AC7135FA02500F99CB5 /* MDACDoneButtonPressed@2x.png in Resources */,
 				65262AC8135FA02500F99CB5 /* MDACTitleBar.png in Resources */,
 				65262AC9135FA02500F99CB5 /* MDACTitleBar@2x.png in Resources */,
+				6525E0891360071900E70F9D /* Credits.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
