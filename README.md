@@ -87,3 +87,8 @@ THE SOFTWARE.
 
 Also, it'd be super awesome if you left in the credit line generated
 automatically by the code that links back to this page :)
+
+Credits
+-------
+
+Created by [Dimitri Bouniol](http://twitter.com/dimitribouniol) for [Mochi Development, Inc.](http://mochidev.com/)

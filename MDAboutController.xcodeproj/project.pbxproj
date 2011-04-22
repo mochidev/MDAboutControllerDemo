@@ -65,6 +65,7 @@
 		652160B91362234A00113FC9 /* MDACCellBackgroundSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACCellBackgroundSingle@2x.png"; sourceTree = "<group>"; };
 		652160BA1362234A00113FC9 /* MDACLinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACLinkArrow.png; sourceTree = "<group>"; };
 		652160BB1362234A00113FC9 /* MDACLinkArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACLinkArrow@2x.png"; sourceTree = "<group>"; };
+		652160C9136229C000113FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6525E0881360071900E70F9D /* Credits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credits.plist; sourceTree = "<group>"; };
 		65262AB6135FA02500F99CB5 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
 		65262AB7135FA02500F99CB5 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		652F7E85135CEF3800B24FF3 = {
 			isa = PBXGroup;
 			children = (
+				652160C9136229C000113FC9 /* README.md */,
 				652F7E9A135CEF3800B24FF3 /* MDAboutController */,
 				652F7E93135CEF3800B24FF3 /* Frameworks */,
 				652F7E91135CEF3800B24FF3 /* Products */,
