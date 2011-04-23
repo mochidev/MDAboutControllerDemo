@@ -38,21 +38,37 @@ presentModalViewController:animated: method:
     // Defined in interface
     MDAboutController *aboutController;
     - (IBAction)showAbout:(id)sender;
-    
+
+
+
     // Implemented in implementation of a UIViewController subclass
-    - (IBAction)showAbout:(id)sender
-    {
-        if (!aboutController) {
-            aboutController = [[MDAboutController alloc] init];
-        }
-    
-        [self presentModalViewController:aboutController animated:YES];
-    }
-    
     - (void)dealloc
     {
         [aboutController release];
-        [super release];
+        [super dealloc];
+    }
+    
+    - (void)didReceiveMemoryWarning
+    {
+        [super didReceiveMemoryWarning];
+    
+        // Check if the about controller is being shown
+        if (aboutController.parentViewController == nil) {
+            // Release and set to nil, so we can recreate it if we need to
+            [aboutController release];
+            aboutController = nil;
+        }
+    }
+    
+    - (IBAction)showAbout:(id)sender
+    {
+        // If the view controller doesn't already exist, create it
+        if (!aboutController) {
+            aboutController = [[MDAboutController alloc] init];
+        }
+        
+        // Present to user!
+        [self presentModalViewController:aboutController animated:YES];
     }
 
 
