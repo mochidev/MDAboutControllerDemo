@@ -18,7 +18,7 @@ Installation
     $ git submodule init
     $ git submodule update
 
-To include it into your projects either download the
+To include it into your own projects either download the
 [source](https://github.com/mochidev/MDAboutController), or run the following
 on your git repo:
 
@@ -33,13 +33,15 @@ Usage
 Simply add the
 [MDAboutController](https://github.com/mochidev/MDAboutController) submodule to
 your project, and show the controller via UIViewController's
-presentModalViewController:animated: method:
+`presentModalViewController:animated:` method.
+
+In your interface, define the following instance variable and method:
 
     // Defined in interface
     MDAboutController *aboutController;
     - (IBAction)showAbout:(id)sender;
 
-
+Then, in your UIViewController subclass implementation, implement the following methods:
 
     // Implemented in implementation of a UIViewController subclass
     - (void)dealloc
@@ -71,7 +73,32 @@ presentModalViewController:animated: method:
         [self presentModalViewController:aboutController animated:YES];
     }
 
+Credits.plist
+---
 
+To get the most out of MDAboutViewController, be sure to include a `Credits.plist` file in your projects resources. This will allow you to add credits, links, images, and text to your about screen. The property list must be configured as an array of dictionaries, with each dictionary representing one section on the about screen.
+
+Each dictionary should have a `Type` key of type string, which can be a `List` for a group of links or credits, `Text` for blocks of text or copyright strings, or `Image` for images.
+
+`Type == List` Keys:
+- `Items` - an array of dictionaries with mandatory key `Name` and optional keys `Role` and `Link`, all of type string.
+- `Title` - an optional title string to include above the group.
+
+`Type == Text` Keys:
+- `Text` - the text to represent.
+- `Link` - an optional URL string to link to if the text is tapped.
+- `Size` - an optional font size of type number. The default is 13pt.
+- `Alignment` - an optional string representing the text alignment. Can be either `Left`, `Right`, or the default, `Center`.
+
+`Type == Image` Keys
+- `Image` - the name of the image file, much like it is referenced from `UIImage`'s `imageNamed:` method.
+
+To Do
+---
+
+- Navigation controller compatibility
+- Code based customizations
+- App portfolio for more info
 
 Coding Style Guidelines
 -----------------------
@@ -101,7 +128,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-EleMints, the ELeMints Icon, Mochi Dev, and the Mochi Development logo are
+EleMints, the EleMints Icon, Mochi Dev, and the Mochi Development logo are
 copyright Mochi Development, Inc.
 
 Also, it'd be super awesome if you left in the credit line generated
