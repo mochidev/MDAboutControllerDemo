@@ -81,16 +81,19 @@ To get the most out of MDAboutViewController, be sure to include a `Credits.plis
 Each dictionary should have a `Type` key of type string, which can be a `List` for a group of links or credits, `Text` for blocks of text or copyright strings, or `Image` for images.
 
 `Type == List` Keys:
+
 - `Items` - an array of dictionaries with mandatory key `Name` and optional keys `Role` and `Link`, all of type string.
 - `Title` - an optional title string to include above the group.
 
 `Type == Text` Keys:
+
 - `Text` - the text to represent.
 - `Link` - an optional URL string to link to if the text is tapped.
 - `Size` - an optional font size of type number. The default is 13pt.
 - `Alignment` - an optional string representing the text alignment. Can be either `Left`, `Right`, or the default, `Center`.
 
-`Type == Image` Keys
+`Type == Image` Keys:
+
 - `Image` - the name of the image file, much like it is referenced from `UIImage`'s `imageNamed:` method.
 
 To Do
