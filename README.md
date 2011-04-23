@@ -85,6 +85,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+EleMints, the ELeMints Icon, Mochi Dev, and the Mochi Development logo are
+copyright Mochi Development, Inc.
+
 Also, it'd be super awesome if you left in the credit line generated
 automatically by the code that links back to this page :)
 

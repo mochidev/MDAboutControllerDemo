@@ -19,40 +19,32 @@
 
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Release any cached data, images, etc that aren't in use.
+    // Check if the about controller is being shown
+    if (aboutController.parentViewController == nil) {
+        // Release and set to nil, so we can recreate it if we need to
+        [aboutController release];
+        aboutController = nil;
+    }
 }
 
-#pragma mark - View lifecycle
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
+- (IBAction)showAbout:(id)sender
 {
-    [super viewDidLoad];
-}
-*/
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return YES;
-}
-
-- (IBAction)showAbout:(id)sender {
+    // If the view controller doesn't already exist, create it
     if (!aboutController) {
         aboutController = [[MDAboutController alloc] init];
     }
     
+    // Present to user!
     [self presentModalViewController:aboutController animated:YES];
 }
+
+#pragma mark - View lifecycle
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return YES;
+}
+
 @end

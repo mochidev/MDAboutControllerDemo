@@ -25,6 +25,15 @@
 		652160C51362234A00113FC9 /* MDACCellBackgroundSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160B91362234A00113FC9 /* MDACCellBackgroundSingle@2x.png */; };
 		652160C61362234A00113FC9 /* MDACLinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160BA1362234A00113FC9 /* MDACLinkArrow.png */; };
 		652160C71362234A00113FC9 /* MDACLinkArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160BB1362234A00113FC9 /* MDACLinkArrow@2x.png */; };
+		652160D01362303400113FC9 /* MDACIconMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CA1362303400113FC9 /* MDACIconMask.png */; };
+		652160D11362303400113FC9 /* MDACIconMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CB1362303400113FC9 /* MDACIconMask@2x.png */; };
+		652160D21362303400113FC9 /* MDACIconMask~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CC1362303400113FC9 /* MDACIconMask~ipad.png */; };
+		652160D31362303400113FC9 /* MDACIconShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CD1362303400113FC9 /* MDACIconShadow.png */; };
+		652160D41362303400113FC9 /* MDACIconShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CE1362303400113FC9 /* MDACIconShadow@2x.png */; };
+		652160D51362303400113FC9 /* MDACIconShadow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160CF1362303400113FC9 /* MDACIconShadow~ipad.png */; };
+		652160D91362309900113FC9 /* Icon57px.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160D61362309900113FC9 /* Icon57px.png */; };
+		652160DA1362309900113FC9 /* Icon72px.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160D71362309900113FC9 /* Icon72px.png */; };
+		652160DB1362309900113FC9 /* Icon114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 652160D81362309900113FC9 /* Icon114px.png */; };
 		6525E0891360071900E70F9D /* Credits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6525E0881360071900E70F9D /* Credits.plist */; };
 		65262AC1135FA02500F99CB5 /* MDAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65262AB7135FA02500F99CB5 /* MDAboutController.m */; };
 		65262AC2135FA02500F99CB5 /* MDACBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 65262AB9135FA02500F99CB5 /* MDACBackground.png */; };
@@ -66,6 +75,15 @@
 		652160BA1362234A00113FC9 /* MDACLinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACLinkArrow.png; sourceTree = "<group>"; };
 		652160BB1362234A00113FC9 /* MDACLinkArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACLinkArrow@2x.png"; sourceTree = "<group>"; };
 		652160C9136229C000113FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		652160CA1362303400113FC9 /* MDACIconMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACIconMask.png; sourceTree = "<group>"; };
+		652160CB1362303400113FC9 /* MDACIconMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconMask@2x.png"; sourceTree = "<group>"; };
+		652160CC1362303400113FC9 /* MDACIconMask~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconMask~ipad.png"; sourceTree = "<group>"; };
+		652160CD1362303400113FC9 /* MDACIconShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACIconShadow.png; sourceTree = "<group>"; };
+		652160CE1362303400113FC9 /* MDACIconShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconShadow@2x.png"; sourceTree = "<group>"; };
+		652160CF1362303400113FC9 /* MDACIconShadow~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconShadow~ipad.png"; sourceTree = "<group>"; };
+		652160D61362309900113FC9 /* Icon57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon57px.png; sourceTree = "<group>"; };
+		652160D71362309900113FC9 /* Icon72px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72px.png; sourceTree = "<group>"; };
+		652160D81362309900113FC9 /* Icon114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114px.png; sourceTree = "<group>"; };
 		6525E0881360071900E70F9D /* Credits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credits.plist; sourceTree = "<group>"; };
 		65262AB6135FA02500F99CB5 /* MDAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutController.h; sourceTree = "<group>"; };
 		65262AB7135FA02500F99CB5 /* MDAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutController.m; sourceTree = "<group>"; };
@@ -128,6 +146,12 @@
 		65262AB8135FA02500F99CB5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				652160CA1362303400113FC9 /* MDACIconMask.png */,
+				652160CB1362303400113FC9 /* MDACIconMask@2x.png */,
+				652160CC1362303400113FC9 /* MDACIconMask~ipad.png */,
+				652160CD1362303400113FC9 /* MDACIconShadow.png */,
+				652160CE1362303400113FC9 /* MDACIconShadow@2x.png */,
+				652160CF1362303400113FC9 /* MDACIconShadow~ipad.png */,
 				652160B01362234A00113FC9 /* MDACCellBackgroundSelectedBottom.png */,
 				652160B11362234A00113FC9 /* MDACCellBackgroundSelectedBottom@2x.png */,
 				652160B21362234A00113FC9 /* MDACCellBackgroundSelectedMiddle.png */,
@@ -204,6 +228,9 @@
 		652F7E9B135CEF3900B24FF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				652160D61362309900113FC9 /* Icon57px.png */,
+				652160D71362309900113FC9 /* Icon72px.png */,
+				652160D81362309900113FC9 /* Icon114px.png */,
 				652F7E9C135CEF3900B24FF3 /* MDAboutController-Info.plist */,
 				652F7E9D135CEF3900B24FF3 /* InfoPlist.strings */,
 				652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */,
@@ -293,6 +320,15 @@
 				652160C51362234A00113FC9 /* MDACCellBackgroundSingle@2x.png in Resources */,
 				652160C61362234A00113FC9 /* MDACLinkArrow.png in Resources */,
 				652160C71362234A00113FC9 /* MDACLinkArrow@2x.png in Resources */,
+				652160D01362303400113FC9 /* MDACIconMask.png in Resources */,
+				652160D11362303400113FC9 /* MDACIconMask@2x.png in Resources */,
+				652160D21362303400113FC9 /* MDACIconMask~ipad.png in Resources */,
+				652160D31362303400113FC9 /* MDACIconShadow.png in Resources */,
+				652160D41362303400113FC9 /* MDACIconShadow@2x.png in Resources */,
+				652160D51362303400113FC9 /* MDACIconShadow~ipad.png in Resources */,
+				652160D91362309900113FC9 /* Icon57px.png in Resources */,
+				652160DA1362309900113FC9 /* Icon72px.png in Resources */,
+				652160DB1362309900113FC9 /* Icon114px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

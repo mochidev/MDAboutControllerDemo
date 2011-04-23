@@ -12,6 +12,7 @@
 @interface MDAboutControllerViewController : UIViewController {
     MDAboutController *aboutController;
 }
+
 - (IBAction)showAbout:(id)sender;
 
 @end
