@@ -14,16 +14,20 @@ for the actual code :)
 Installation
 ------------
 
+```bash
     $ git clone https://github.com/mochidev/MDAboutControllerDemo
     $ git submodule init
     $ git submodule update
+```
 
 To include it into your own projects either download the
 [source](https://github.com/mochidev/MDAboutController), or run the following
 on your git repo:
 
+```bash
     $ cd <your_repo>
     $ git submodule add git@github.com:mochidev/MDAboutController.git <local_subpath>
+```
 
 This will allow you to update it at anytime by running `$ git submodule update`.
 
@@ -37,12 +41,15 @@ your project, and show the controller via UIViewController's
 
 In your interface, define the following instance variable and method:
 
+```obj-c
     // Defined in interface
     MDAboutController *aboutController;
     - (IBAction)showAbout:(id)sender;
+```
 
 Then, in your UIViewController subclass implementation, implement the following methods:
 
+```obj-c
     // Implemented in implementation of a UIViewController subclass
     - (void)dealloc
     {
@@ -72,6 +79,7 @@ Then, in your UIViewController subclass implementation, implement the following 
         // Present to user!
         [self presentModalViewController:aboutController animated:YES];
     }
+```
 
 Credits.plist
 ---
