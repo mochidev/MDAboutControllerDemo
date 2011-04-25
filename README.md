@@ -15,9 +15,9 @@ Installation
 ------------
 
 ```bash
-    $ git clone https://github.com/mochidev/MDAboutControllerDemo
-    $ git submodule init
-    $ git submodule update
+$ git clone https://github.com/mochidev/MDAboutControllerDemo
+$ git submodule init
+$ git submodule update
 ```
 
 To include it into your own projects either download the
@@ -25,8 +25,8 @@ To include it into your own projects either download the
 on your git repo:
 
 ```bash
-    $ cd <your_repo>
-    $ git submodule add git@github.com:mochidev/MDAboutController.git <local_subpath>
+$ cd <your_repo>
+$ git submodule add git@github.com:mochidev/MDAboutController.git <local_subpath>
 ```
 
 This will allow you to update it at anytime by running `$ git submodule update`.
@@ -42,43 +42,43 @@ your project, and show the controller via UIViewController's
 In your interface, define the following instance variable and method:
 
 ```obj-c
-    // Defined in interface
-    MDAboutController *aboutController;
-    - (IBAction)showAbout:(id)sender;
+// Defined in interface
+MDAboutController *aboutController;
+- (IBAction)showAbout:(id)sender;
 ```
 
 Then, in your UIViewController subclass implementation, implement the following methods:
 
 ```obj-c
-    // Implemented in implementation of a UIViewController subclass
-    - (void)dealloc
-    {
+// Implemented in implementation of a UIViewController subclass
+- (void)dealloc
+{
+    [aboutController release];
+    [super dealloc];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+
+    // Check if the about controller is being shown
+    if (aboutController.parentViewController == nil) {
+        // Release and set to nil, so we can recreate it if we need to
         [aboutController release];
-        [super dealloc];
+        aboutController = nil;
+    }
+}
+
+- (IBAction)showAbout:(id)sender
+{
+    // If the view controller doesn't already exist, create it
+    if (!aboutController) {
+        aboutController = [[MDAboutController alloc] init];
     }
     
-    - (void)didReceiveMemoryWarning
-    {
-        [super didReceiveMemoryWarning];
-    
-        // Check if the about controller is being shown
-        if (aboutController.parentViewController == nil) {
-            // Release and set to nil, so we can recreate it if we need to
-            [aboutController release];
-            aboutController = nil;
-        }
-    }
-    
-    - (IBAction)showAbout:(id)sender
-    {
-        // If the view controller doesn't already exist, create it
-        if (!aboutController) {
-            aboutController = [[MDAboutController alloc] init];
-        }
-        
-        // Present to user!
-        [self presentModalViewController:aboutController animated:YES];
-    }
+    // Present to user!
+    [self presentModalViewController:aboutController animated:YES];
+}
 ```
 
 Credits.plist
