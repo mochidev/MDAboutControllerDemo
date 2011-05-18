@@ -1,6 +1,8 @@
 MDAboutController Demo
 ======================
 
+![Screenshot](https://github.com/mochidev/MDAboutControllerDemo/raw/master/Artwork/Screenshot.png)
+
 Purpose
 -------
 
