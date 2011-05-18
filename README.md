@@ -13,6 +13,12 @@ MDAboutController class. Please visit the
 [MDAboutController](https://github.com/mochidev/MDAboutController) repository
 for the actual code :)
 
+MDAboutController is both iPhone (Portrait and Landscape) and iPad compatible,
+retrieves the app's name and version from your Info.plist, and even makes
+chooses the most appropriate icon for the project depending on the device and
+your choices in Info.plist. Finally, the controller allows you to add credits,
+links, images, and text via a Credits.plist file (examples below).
+
 Installation
 ------------
 
