@@ -109,7 +109,8 @@ To Do
 
 - Navigation controller compatibility
 - Code based customizations
-- App portfolio for more info
+  - Styles (As a seperate configurable class, defining all images, colors, etc...?)
+- App portfolio for more info on other apps
 
 Coding Style Guidelines
 -----------------------
