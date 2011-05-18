@@ -15,9 +15,7 @@ Installation
 ------------
 
 ```bash
-$ git clone https://github.com/mochidev/MDAboutControllerDemo
-$ git submodule init
-$ git submodule update
+$ git clone https://github.com/mochidev/MDAboutControllerDemo --recursive
 ```
 
 To include it into your own projects either download the
