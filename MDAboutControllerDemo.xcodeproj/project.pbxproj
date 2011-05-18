@@ -226,7 +226,8 @@
 				65262AB4135FA02500F99CB5 /* MDAboutController */,
 				652F7E9B135CEF3900B24FF3 /* Supporting Files */,
 			);
-			path = MDAboutController;
+			name = MDAboutController;
+			path = MDAboutControllerDemo;
 			sourceTree = "<group>";
 		};
 		652F7E9B135CEF3900B24FF3 /* Supporting Files */ = {
@@ -425,8 +426,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MDAboutController/MDAboutController-Prefix.pch";
-				INFOPLIST_FILE = "MDAboutController/MDAboutController-Info.plist";
+				GCC_PREFIX_HEADER = "MDAboutControllerDemo/MDAboutController-Prefix.pch";
+				INFOPLIST_FILE = "MDAboutControllerDemo/MDAboutController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -439,8 +440,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MDAboutController/MDAboutController-Prefix.pch";
-				INFOPLIST_FILE = "MDAboutController/MDAboutController-Info.plist";
+				GCC_PREFIX_HEADER = "MDAboutControllerDemo/MDAboutController-Prefix.pch";
+				INFOPLIST_FILE = "MDAboutControllerDemo/MDAboutController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
