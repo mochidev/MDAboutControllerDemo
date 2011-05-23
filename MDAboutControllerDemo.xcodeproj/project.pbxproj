@@ -55,6 +55,14 @@
 		652F7EA8135CEF3900B24FF3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EA6135CEF3900B24FF3 /* MainWindow.xib */; };
 		652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */; };
 		652F7EAE135CEF3900B24FF3 /* MDAboutControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */; };
+		6538F6A6138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6A5138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m */; };
+		6538F6A9138B211F001F72EE /* MDACTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6A8138B211F001F72EE /* MDACTitleBar.m */; };
+		6538F6AC138B229C001F72EE /* MDACCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6AB138B229C001F72EE /* MDACCredit.m */; };
+		6538F6AF138B2315001F72EE /* MDACCreditItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6AE138B2314001F72EE /* MDACCreditItem.m */; };
+		6538F6B2138B2405001F72EE /* MDACListCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6B1138B2405001F72EE /* MDACListCredit.m */; };
+		6538F6B5138B24BE001F72EE /* MDACTextCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6B4138B24BD001F72EE /* MDACTextCredit.m */; };
+		6538F6B8138B25A1001F72EE /* MDACImageCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6B7138B259F001F72EE /* MDACImageCredit.m */; };
+		6538F6BB138B25EF001F72EE /* MDACIconCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538F6BA138B25EB001F72EE /* MDACIconCredit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +121,23 @@
 		652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerViewController.h; sourceTree = "<group>"; };
 		652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerViewController.m; sourceTree = "<group>"; };
 		652F7EAD135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDAboutControllerViewController.xib; sourceTree = "<group>"; };
+		6538F6A4138B1FF1001F72EE /* UIImage+DBMaskedImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DBMaskedImageAdditions.h"; sourceTree = "<group>"; };
+		6538F6A5138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DBMaskedImageAdditions.m"; sourceTree = "<group>"; };
+		6538F6A7138B211F001F72EE /* MDACTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACTitleBar.h; sourceTree = "<group>"; };
+		6538F6A8138B211F001F72EE /* MDACTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACTitleBar.m; sourceTree = "<group>"; };
+		6538F6AA138B229C001F72EE /* MDACCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACCredit.h; sourceTree = "<group>"; };
+		6538F6AB138B229C001F72EE /* MDACCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACCredit.m; sourceTree = "<group>"; };
+		6538F6AD138B2314001F72EE /* MDACCreditItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACCreditItem.h; sourceTree = "<group>"; };
+		6538F6AE138B2314001F72EE /* MDACCreditItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACCreditItem.m; sourceTree = "<group>"; };
+		6538F6B0138B2404001F72EE /* MDACListCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACListCredit.h; sourceTree = "<group>"; };
+		6538F6B1138B2405001F72EE /* MDACListCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACListCredit.m; sourceTree = "<group>"; };
+		6538F6B3138B24BC001F72EE /* MDACTextCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACTextCredit.h; sourceTree = "<group>"; };
+		6538F6B4138B24BD001F72EE /* MDACTextCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACTextCredit.m; sourceTree = "<group>"; };
+		6538F6B6138B259F001F72EE /* MDACImageCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACImageCredit.h; sourceTree = "<group>"; };
+		6538F6B7138B259F001F72EE /* MDACImageCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACImageCredit.m; sourceTree = "<group>"; };
+		6538F6B9138B25EA001F72EE /* MDACIconCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACIconCredit.h; sourceTree = "<group>"; };
+		6538F6BA138B25EB001F72EE /* MDACIconCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACIconCredit.m; sourceTree = "<group>"; };
+		6538F6BC138B2713001F72EE /* MDACClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACClasses.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +166,25 @@
 		65262AB5135FA02500F99CB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6538F6BC138B2713001F72EE /* MDACClasses.h */,
 				65262AB6135FA02500F99CB5 /* MDAboutController.h */,
 				65262AB7135FA02500F99CB5 /* MDAboutController.m */,
+				6538F6A4138B1FF1001F72EE /* UIImage+DBMaskedImageAdditions.h */,
+				6538F6A5138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m */,
+				6538F6A7138B211F001F72EE /* MDACTitleBar.h */,
+				6538F6A8138B211F001F72EE /* MDACTitleBar.m */,
+				6538F6AA138B229C001F72EE /* MDACCredit.h */,
+				6538F6AB138B229C001F72EE /* MDACCredit.m */,
+				6538F6AD138B2314001F72EE /* MDACCreditItem.h */,
+				6538F6AE138B2314001F72EE /* MDACCreditItem.m */,
+				6538F6B0138B2404001F72EE /* MDACListCredit.h */,
+				6538F6B1138B2405001F72EE /* MDACListCredit.m */,
+				6538F6B3138B24BC001F72EE /* MDACTextCredit.h */,
+				6538F6B4138B24BD001F72EE /* MDACTextCredit.m */,
+				6538F6B6138B259F001F72EE /* MDACImageCredit.h */,
+				6538F6B7138B259F001F72EE /* MDACImageCredit.m */,
+				6538F6B9138B25EA001F72EE /* MDACIconCredit.h */,
+				6538F6BA138B25EB001F72EE /* MDACIconCredit.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -352,6 +394,14 @@
 				652F7EA5135CEF3900B24FF3 /* MDAboutControllerAppDelegate.m in Sources */,
 				652F7EAB135CEF3900B24FF3 /* MDAboutControllerViewController.m in Sources */,
 				65262AC1135FA02500F99CB5 /* MDAboutController.m in Sources */,
+				6538F6A6138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m in Sources */,
+				6538F6A9138B211F001F72EE /* MDACTitleBar.m in Sources */,
+				6538F6AC138B229C001F72EE /* MDACCredit.m in Sources */,
+				6538F6AF138B2315001F72EE /* MDACCreditItem.m in Sources */,
+				6538F6B2138B2405001F72EE /* MDACListCredit.m in Sources */,
+				6538F6B5138B24BE001F72EE /* MDACTextCredit.m in Sources */,
+				6538F6B8138B25A1001F72EE /* MDACImageCredit.m in Sources */,
+				6538F6BB138B25EF001F72EE /* MDACIconCredit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

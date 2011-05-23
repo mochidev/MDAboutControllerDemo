@@ -116,6 +116,7 @@ To Do
 - Code based customizations
   - Styles (As a seperate configurable class, defining all images, colors, etc...?)
 - App portfolio for more info on other apps
+- Webview for links
 
 Coding Style Guidelines
 -----------------------

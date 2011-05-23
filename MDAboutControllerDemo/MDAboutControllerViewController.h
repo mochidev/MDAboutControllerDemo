@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class MDAboutController;
+#import "MDACClasses.h"
 
 @interface MDAboutControllerViewController : UIViewController {
     MDAboutController *aboutController;

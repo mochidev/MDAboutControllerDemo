@@ -7,7 +7,6 @@
 //
 
 #import "MDAboutControllerViewController.h"
-#import "MDAboutController.h"
 
 @implementation MDAboutControllerViewController
 
