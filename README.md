@@ -113,7 +113,6 @@ Each dictionary should have a `Type` key of type string, which can be a `List` f
 To Do
 ---
 
-- Navigation controller compatibility
 - Code based customizations
   - Styles (As a seperate configurable class, defining all images, colors, etc...?)
 - App portfolio for more info on other apps
