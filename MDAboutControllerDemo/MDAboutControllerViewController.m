@@ -60,6 +60,9 @@
         
         MDAboutController *aboutCont = [[MDAboutController alloc] init];
         
+        aboutCont.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        //aboutCont.hasSimpleBackground = YES;
+        
         UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(hideAbout:)];
         aboutCont.navigationItem.rightBarButtonItem = doneButton;
         [doneButton release];
