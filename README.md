@@ -117,6 +117,7 @@ To Do
   - Styles (As a seperate configurable class, defining all images, colors, etc...?)
 - App portfolio for more info on other apps
 - Webview for links
+- Images in lists
 
 Coding Style Guidelines
 -----------------------
@@ -155,4 +156,5 @@ automatically by the code that links back to this page :)
 Credits
 -------
 
-Created by [Dimitri Bouniol](http://twitter.com/dimitribouniol) for [Mochi Development, Inc.](http://mochidev.com/)
+- Created by [Dimitri Bouniol](http://twitter.com/dimitribouniol) for [Mochi Development, Inc.](http://mochidev.com/)
+- Contributed to by [Doron Katz](http://doronkatz.com) of [DoronKatz.com](http://doronkatz.com)

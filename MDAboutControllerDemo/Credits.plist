@@ -11,13 +11,21 @@
 				<key>Name</key>
 				<string>Dimitri Bouniol</string>
 				<key>Role</key>
-				<string>Developer</string>
+				<string>Creator</string>
 			</dict>
 			<dict>
 				<key>Name</key>
 				<string>Dimitri Bouniol</string>
 				<key>Role</key>
 				<string>Designer</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>http://doronkatz.com/</string>
+				<key>Name</key>
+				<string>Doron Katz</string>
+				<key>Role</key>
+				<string>Contributor</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -59,12 +67,12 @@
 	<dict>
 		<key>Alignment</key>
 		<string>Left</string>
+		<key>Link</key>
+		<string>https://github.com/mochidev/MDAboutControllerDemo</string>
 		<key>Text</key>
 		<string>MDAboutController is a complete About UIViewController package for iOS apps. It automatically fetches info from your Info.plist, and also populates credits from Credits.plist. This repository serves to demonstrate and test the MDAboutController class. Please visit the GitHub repository for the actual code :)</string>
 		<key>Type</key>
 		<string>Text</string>
-		<key>Link</key>
-		<string>https://github.com/mochidev/MDAboutControllerDemo</string>
 	</dict>
 	<dict>
 		<key>Image</key>
