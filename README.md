@@ -114,9 +114,9 @@ To Do
 ---
 
 - Code based customizations
+  - Better iOS-like presentation;
   - Styles (As a seperate configurable class, defining all images, colors, etc...?)
 - App portfolio for more info on other apps
-- Webview for links
 - Images in lists
 
 Coding Style Guidelines
