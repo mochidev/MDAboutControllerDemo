@@ -87,6 +87,8 @@ Then, in your UIViewController subclass implementation, implement the following 
 }
 ```
 
+Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers (incomplete).
+
 Credits.plist
 ---
 
