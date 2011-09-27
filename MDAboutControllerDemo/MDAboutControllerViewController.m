@@ -14,6 +14,7 @@
 {
     [aboutController release];
     [navAboutController release];
+    [transparentNavAboutController release];
     [super dealloc];
 }
 
@@ -28,11 +29,14 @@
         aboutController = nil;
     }
     
-    // Check if the about controller is being shown
     if (navAboutController.parentViewController == nil) {
-        // Release and set to nil, so we can recreate it if we need to
         [navAboutController release];
         navAboutController = nil;
+    }
+    
+    if (transparentNavAboutController.parentViewController == nil) {
+        [transparentNavAboutController release];
+        transparentNavAboutController = nil;
     }
 }
 
@@ -72,6 +76,35 @@
     
     // Present to user!
     [self presentModalViewController:navAboutController animated:YES];
+}
+
+- (IBAction)showTransparentNavAbout:(id)sender
+{
+    
+    // If the view controller doesn't already exist, create it
+    if (!transparentNavAboutController) {
+        transparentNavAboutController = [[UINavigationController alloc] init];
+        
+        transparentNavAboutController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        transparentNavAboutController.modalPresentationStyle = UIModalPresentationFormSheet;
+        
+        transparentNavAboutController.navigationBar.translucent = YES;
+        
+        MDAboutController *aboutCont = [[MDAboutController alloc] init];
+        
+//        aboutCont.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        //aboutCont.hasSimpleBackground = YES;
+        
+        UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(hideAbout:)];
+        aboutCont.navigationItem.rightBarButtonItem = doneButton;
+        [doneButton release];
+        
+        [transparentNavAboutController pushViewController:aboutCont animated:NO];
+        [aboutCont release];
+    }
+    
+    // Present to user!
+    [self presentModalViewController:transparentNavAboutController animated:YES];
 }
          
 - (IBAction)hideAbout:(id)sender

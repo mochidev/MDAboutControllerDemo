@@ -12,10 +12,12 @@
 @interface MDAboutControllerViewController : UIViewController {
     MDAboutController *aboutController;
     UINavigationController *navAboutController;
+    UINavigationController *transparentNavAboutController;
 }
 
 - (IBAction)showAbout:(id)sender;
 - (IBAction)showNavAbout:(id)sender;
+- (IBAction)showTransparentNavAbout:(id)sender;
 - (IBAction)hideAbout:(id)sender;
 
 @end

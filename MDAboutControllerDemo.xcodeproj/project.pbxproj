@@ -139,7 +139,7 @@
 		6538F6B9138B25EA001F72EE /* MDACIconCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACIconCredit.h; sourceTree = "<group>"; };
 		6538F6BA138B25EB001F72EE /* MDACIconCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACIconCredit.m; sourceTree = "<group>"; };
 		6538F6BC138B2713001F72EE /* MDACClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACClasses.h; sourceTree = "<group>"; };
-		6565DE9A1391FE810044FDD0 /* MDACWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = MDACWebViewController.h; sourceTree = "<group>"; };
+		6565DE9A1391FE810044FDD0 /* MDACWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACWebViewController.h; sourceTree = "<group>"; };
 		6565DE9B1391FE810044FDD0 /* MDACWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -319,6 +319,7 @@
 		652F7E87135CEF3800B24FF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Mochi Development Inc.";
 			};
 			buildConfigurationList = 652F7E8A135CEF3800B24FF3 /* Build configuration list for PBXProject "MDAboutControllerDemo" */;
