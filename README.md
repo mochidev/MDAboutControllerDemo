@@ -87,11 +87,26 @@ Then, in your UIViewController subclass implementation, implement the following 
 }
 ```
 
-Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers. This can be easily done by using the `MDAboutNavigationController` class, a subclass of `UINavigationController`, in the same way as `MDAboutController` was used above. Please see the `MDAboutControllerDemo/MDAboutControllerViewController.m` file for examples.
+Alternatively, if you create the view controller as a part of a navigation
+controller stack, it will support loading `UIWebView`s and other specified
+view controllers. This can be easily done by using the `MDAboutNavigationController`
+class, a subclass of `UINavigationController`, in the same way as `MDAboutController`
+was used above. Please see the `MDAboutControllerDemo/MDAboutControllerViewController.m`
+file for examples.
 
-If you would like to include Email support directly in your app, please add the `MessageUI` framework to your project, otherwise a new message will be created in Mail.app. The subject will be populated with "App Name 1.0 (55) Support" automatically.
+To add a custom controller to the navigation stack, first, make sure your
+about controller is part of a navigation stack. Then, in your `Credits.plist`,
+add a list item with the `Controller` key set to the class name of your
+custom `UIViewController` subclass.
 
-If you would like to edit the style of an `MDAboutController` (as is done in the first demo), subclass `MDACStyle` and return values you wish to change. Then, when you create your controller, initialize it with that style:
+If you would like to include Email support directly in your app, please add
+the `MessageUI` framework to your project, otherwise a new message will be
+created in Mail.app. The subject will be populated with "App Name 1.0 (55)
+Support" automatically.
+
+If you would like to edit the style of an `MDAboutController` (as is done in
+the first demo), subclass `MDACStyle` and return values you wish to change.
+Then, when you create your controller, initialize it with that style:
 
 ```obj-c
 - (IBAction)showAbout:(id)sender
@@ -117,14 +132,24 @@ If you would like to edit the style of an `MDAboutController` (as is done in the
 }
 ```
 
-Two styles are included by default. To get the default iOS user interface, simply create the controller with `[[MDAboutController alloc] init]`, and `[MDACStyle style]` will automatically be used. Additionally, the `MDACMochiDevStyle` style class is included to illustrate how a different style may look.
+Two styles are included by default. To get the default iOS user interface,
+simply create the controller with `[[MDAboutController alloc] init]`,
+and `[MDACStyle style]` will automatically be used. Additionally,
+the `MDACMochiDevStyle` style class is included to illustrate how
+a different style may look.
 
 Credits.plist
 ---
 
-To get the most out of MDAboutViewController, be sure to include a `Credits.plist` file in your project's resources. This will allow you to add credits, links, images, and text to your about screen. The property list must be configured as an array of dictionaries, with each dictionary representing one section of the about screen.
+To get the most out of MDAboutViewController, be sure to include a `Credits.plist`
+file in your project's resources. This will allow you to add credits,
+links, images, and text to your about screen. The property list must be
+configured as an array of dictionaries, with each dictionary representing
+one section of the about screen.
 
-Each dictionary should have a `Type` key of type string, which can have a value of `List` for a group of links or credits, `Text` for blocks of text or copyright strings, or `Image` for images.
+Each dictionary should have a `Type` key of type string, which can have a
+value of `List` for a group of links or credits, `Text` for blocks of text
+or copyright strings, or `Image` for images.
 
 `Type == List` Keys:
 
@@ -149,7 +174,7 @@ Each dictionary should have a `Type` key of type string, which can have a value 
 - `Image` - the name of the image file, much like it is referenced from `UIImage`'s `imageNamed:` method.
 
 To Do
----
+-----
 
 - List group titles
 - App portfolio for more info on other apps
@@ -166,14 +191,17 @@ License
 Copyright (c) 2011 Dimitri Bouniol, Mochi Development, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+of this software, associated artwork, and documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+2. Neither the name of Mochi Development, Inc. nor the names of its
+   contributors or products may be used to endorse or promote products
+   derived from this software without specific prior written permission.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
