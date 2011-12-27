@@ -87,20 +87,49 @@ Then, in your UIViewController subclass implementation, implement the following 
 }
 ```
 
-Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers. This can be easily done by using the `MDAboutNavigationController` class, in the same way as `MDAboutController` was used above.
+Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers. This can be easily done by using the `MDAboutNavigationController` class, a subclass of `UINavigationController`, in the same way as `MDAboutController` was used above. Please see the `MDAboutControllerDemo/MDAboutControllerViewController.m` file for examples.
 
 If you would like to include Email support directly in your app, please add the `MessageUI` framework to your project, otherwise a new message will be created in Mail.app. The subject will be populated with "App Name 1.0 (55) Support" automatically.
+
+If you would like to edit the style of an `MDAboutController` (as is done in the first demo), subclass `MDACStyle` and return values you wish to change. Then, when you create your controller, initialize it with that style:
+
+```obj-c
+- (IBAction)showAbout:(id)sender
+{
+    // If the view controller doesn't already exist, create it
+    if (!aboutController) {
+        aboutController = [[MDAboutController alloc] initWithStyle:[MyStyle style]];
+    }
+    
+    // Present to user!
+    [self presentModalViewController:aboutController animated:YES];
+}
+
+- (IBAction)showNavAbout:(id)sender
+{
+    // If the view controller doesn't already exist, create it
+    if (!aboutNavController) {
+        aboutNavController = [[MDAboutNavigationController alloc] initWithStyle:[MyStyle style]];
+    }
+    
+    // Present to user!
+    [self presentModalViewController:aboutNavController animated:YES];
+}
+```
+
+Two styles are included by default. To get the default iOS user interface, simply create the controller with `[[MDAboutController alloc] init]`, and `[MDACStyle style]` will automatically be used. Additionally, the `MDACMochiDevStyle` style class is included to illustrate how a different style may look.
 
 Credits.plist
 ---
 
-To get the most out of MDAboutViewController, be sure to include a `Credits.plist` file in your projects resources. This will allow you to add credits, links, images, and text to your about screen. The property list must be configured as an array of dictionaries, with each dictionary representing one section on the about screen.
+To get the most out of MDAboutViewController, be sure to include a `Credits.plist` file in your project's resources. This will allow you to add credits, links, images, and text to your about screen. The property list must be configured as an array of dictionaries, with each dictionary representing one section of the about screen.
 
-Each dictionary should have a `Type` key of type string, which can be a `List` for a group of links or credits, `Text` for blocks of text or copyright strings, or `Image` for images.
+Each dictionary should have a `Type` key of type string, which can have a value of `List` for a group of links or credits, `Text` for blocks of text or copyright strings, or `Image` for images.
 
 `Type == List` Keys:
 
-- `Items` - an array of dictionaries with mandatory key `Name` and optional keys `Role` and `Link`, that descripe the rows:
+- `Items` - an array of dictionaries with mandatory key `Name` and other optional keys that descripe the rows:
+  - `Name` - a required string which will be used as the row text.
   - `Role` - an optional string shown in lower case in front of the `Name` string.
   - `Link` - an optional URL string to link to if the text is tapped.
   - `Email` - an optional Email string that will open an email panel.
@@ -122,9 +151,7 @@ Each dictionary should have a `Type` key of type string, which can be a `List` f
 To Do
 ---
 
-- Code based customizations
-  - Better iOS-like presentation;
-  - Styles (As a seperate configurable class, defining all images, colors, etc...?)
+- List group titles
 - App portfolio for more info on other apps
 - Images in lists
 
@@ -167,3 +194,4 @@ Credits
 
 - Created by [Dimitri Bouniol](http://twitter.com/dimitribouniol) for [Mochi Development, Inc.](http://mochidev.com/)
 - Contributed to by [Doron Katz](http://doronkatz.com) of [DoronKatz.com](http://doronkatz.com)
+- Contributed to by [Denis Hennessy](http://hennessynet.com) of [Peer Assembly](http://www.peerassembly.com)

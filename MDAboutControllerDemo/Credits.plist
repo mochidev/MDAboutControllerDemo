@@ -28,8 +28,18 @@
 				<string>Contributor</string>
 			</dict>
 			<dict>
+				<key>Link</key>
+				<string>http://hennessynet.com/</string>
+				<key>Name</key>
+				<string>Denis Hennessy</string>
+				<key>Role</key>
+				<string>Contributor</string>
+			</dict>
+			<dict>
 				<key>Name</key>
 				<string>Mochi Dev</string>
+				<key>Link</key>
+				<string>http://mochidev.com/open</string>
 				<key>Role</key>
 				<string>Publisher</string>
 			</dict>
