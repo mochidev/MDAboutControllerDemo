@@ -66,6 +66,15 @@
 				<key>Name</key>
 				<string>Contact Us</string>
 			</dict>
+		</array>
+		<key>Title</key>
+		<string>Links</string>
+		<key>Type</key>
+		<string>List</string>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
 			<dict>
 				<key>Controller</key>
 				<string>MDAboutControllerViewController</string>
@@ -74,7 +83,7 @@
 			</dict>
 		</array>
 		<key>Title</key>
-		<string>Links</string>
+		<string>More</string>
 		<key>Type</key>
 		<string>List</string>
 	</dict>

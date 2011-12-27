@@ -44,7 +44,7 @@
 {
     // If the view controller doesn't already exist, create it
     if (!aboutController) {
-        aboutController = [[MDAboutController alloc] init];
+        aboutController = [[MDAboutController alloc] initWithStyle:[MDACMochiDevStyle style]];
     }
     
     // Present to user!

@@ -66,6 +66,26 @@
 		6565DE9C1391FE810044FDD0 /* MDACWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565DE9B1391FE810044FDD0 /* MDACWebViewController.m */; };
 		658E2BDD14A9769A004E1A3A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658E2BDC14A9769A004E1A3A /* MessageUI.framework */; };
 		658E2BE014A97D7F004E1A3A /* MDAboutNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658E2BDF14A97D7E004E1A3A /* MDAboutNavigationController.m */; };
+		658E2BE314A9924F004E1A3A /* MDACStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 658E2BE214A9924F004E1A3A /* MDACStyle.m */; };
+		658E2BE614A99268004E1A3A /* MDACMochiDevStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 658E2BE514A99268004E1A3A /* MDACMochiDevStyle.m */; };
+		658E2BEF14A9AA3A004E1A3A /* MDACDarkCellBackgroundBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BE714A9AA3A004E1A3A /* MDACDarkCellBackgroundBottom.png */; };
+		658E2BF014A9AA3A004E1A3A /* MDACDarkCellBackgroundMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BE814A9AA3A004E1A3A /* MDACDarkCellBackgroundMiddle.png */; };
+		658E2BF114A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BE914A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedBottom.png */; };
+		658E2BF214A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BEA14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedMiddle.png */; };
+		658E2BF314A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BEB14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedTop.png */; };
+		658E2BF414A9AA3A004E1A3A /* MDACDarkCellBackgroundTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BEC14A9AA3A004E1A3A /* MDACDarkCellBackgroundTop.png */; };
+		658E2BF514A9AA3A004E1A3A /* MDACDarkLinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BED14A9AA3A004E1A3A /* MDACDarkLinkArrow.png */; };
+		658E2BF614A9AA3A004E1A3A /* MDACDarkLinkArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BEE14A9AA3A004E1A3A /* MDACDarkLinkArrow@2x.png */; };
+		658E2BFD14A9AC0B004E1A3A /* MDACDarkCellBackgroundBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BF714A9AC0B004E1A3A /* MDACDarkCellBackgroundBottom@2x.png */; };
+		658E2BFE14A9AC0B004E1A3A /* MDACDarkCellBackgroundMiddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BF814A9AC0B004E1A3A /* MDACDarkCellBackgroundMiddle@2x.png */; };
+		658E2BFF14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BF914A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedBottom@2x.png */; };
+		658E2C0014A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedMiddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BFA14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedMiddle@2x.png */; };
+		658E2C0114A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BFB14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedTop@2x.png */; };
+		658E2C0214A9AC0B004E1A3A /* MDACDarkCellBackgroundTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2BFC14A9AC0B004E1A3A /* MDACDarkCellBackgroundTop@2x.png */; };
+		658E2C0714A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2C0314A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png */; };
+		658E2C0814A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2C0414A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png */; };
+		658E2C0914A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2C0514A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png */; };
+		658E2C0A14A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658E2C0614A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +166,28 @@
 		658E2BDC14A9769A004E1A3A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		658E2BDE14A97D7E004E1A3A /* MDAboutNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAboutNavigationController.h; sourceTree = "<group>"; };
 		658E2BDF14A97D7E004E1A3A /* MDAboutNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAboutNavigationController.m; sourceTree = "<group>"; };
+		658E2BE114A9924F004E1A3A /* MDACStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACStyle.h; sourceTree = "<group>"; };
+		658E2BE214A9924F004E1A3A /* MDACStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACStyle.m; sourceTree = "<group>"; };
+		658E2BE414A99267004E1A3A /* MDACMochiDevStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACMochiDevStyle.h; sourceTree = "<group>"; };
+		658E2BE514A99268004E1A3A /* MDACMochiDevStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDACMochiDevStyle.m; sourceTree = "<group>"; };
+		658E2BE714A9AA3A004E1A3A /* MDACDarkCellBackgroundBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundBottom.png; sourceTree = "<group>"; };
+		658E2BE814A9AA3A004E1A3A /* MDACDarkCellBackgroundMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundMiddle.png; sourceTree = "<group>"; };
+		658E2BE914A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundSelectedBottom.png; sourceTree = "<group>"; };
+		658E2BEA14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundSelectedMiddle.png; sourceTree = "<group>"; };
+		658E2BEB14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundSelectedTop.png; sourceTree = "<group>"; };
+		658E2BEC14A9AA3A004E1A3A /* MDACDarkCellBackgroundTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundTop.png; sourceTree = "<group>"; };
+		658E2BED14A9AA3A004E1A3A /* MDACDarkLinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkLinkArrow.png; sourceTree = "<group>"; };
+		658E2BEE14A9AA3A004E1A3A /* MDACDarkLinkArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkLinkArrow@2x.png"; sourceTree = "<group>"; };
+		658E2BF714A9AC0B004E1A3A /* MDACDarkCellBackgroundBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundBottom@2x.png"; sourceTree = "<group>"; };
+		658E2BF814A9AC0B004E1A3A /* MDACDarkCellBackgroundMiddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundMiddle@2x.png"; sourceTree = "<group>"; };
+		658E2BF914A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundSelectedBottom@2x.png"; sourceTree = "<group>"; };
+		658E2BFA14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedMiddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundSelectedMiddle@2x.png"; sourceTree = "<group>"; };
+		658E2BFB14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundSelectedTop@2x.png"; sourceTree = "<group>"; };
+		658E2BFC14A9AC0B004E1A3A /* MDACDarkCellBackgroundTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundTop@2x.png"; sourceTree = "<group>"; };
+		658E2C0314A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundSelectedSingle.png; sourceTree = "<group>"; };
+		658E2C0414A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundSelectedSingle@2x.png"; sourceTree = "<group>"; };
+		658E2C0514A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACDarkCellBackgroundSingle.png; sourceTree = "<group>"; };
+		658E2C0614A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACDarkCellBackgroundSingle@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,15 +217,19 @@
 		65262AB5135FA02500F99CB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6565DE9A1391FE810044FDD0 /* MDACWebViewController.h */,
-				6565DE9B1391FE810044FDD0 /* MDACWebViewController.m */,
 				6538F6BC138B2713001F72EE /* MDACClasses.h */,
 				658E2BDE14A97D7E004E1A3A /* MDAboutNavigationController.h */,
 				658E2BDF14A97D7E004E1A3A /* MDAboutNavigationController.m */,
 				65262AB6135FA02500F99CB5 /* MDAboutController.h */,
 				65262AB7135FA02500F99CB5 /* MDAboutController.m */,
+				658E2BE114A9924F004E1A3A /* MDACStyle.h */,
+				658E2BE214A9924F004E1A3A /* MDACStyle.m */,
+				658E2BE414A99267004E1A3A /* MDACMochiDevStyle.h */,
+				658E2BE514A99268004E1A3A /* MDACMochiDevStyle.m */,
 				6538F6A4138B1FF1001F72EE /* UIImage+DBMaskedImageAdditions.h */,
 				6538F6A5138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m */,
+				6565DE9A1391FE810044FDD0 /* MDACWebViewController.h */,
+				6565DE9B1391FE810044FDD0 /* MDACWebViewController.m */,
 				6538F6A7138B211F001F72EE /* MDACTitleBar.h */,
 				6538F6A8138B211F001F72EE /* MDACTitleBar.m */,
 				6538F6AA138B229C001F72EE /* MDACCredit.h */,
@@ -205,6 +251,24 @@
 		65262AB8135FA02500F99CB5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				658E2C0314A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png */,
+				658E2C0414A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png */,
+				658E2C0514A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png */,
+				658E2C0614A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle@2x.png */,
+				658E2BF714A9AC0B004E1A3A /* MDACDarkCellBackgroundBottom@2x.png */,
+				658E2BF814A9AC0B004E1A3A /* MDACDarkCellBackgroundMiddle@2x.png */,
+				658E2BF914A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedBottom@2x.png */,
+				658E2BFA14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedMiddle@2x.png */,
+				658E2BFB14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedTop@2x.png */,
+				658E2BFC14A9AC0B004E1A3A /* MDACDarkCellBackgroundTop@2x.png */,
+				658E2BE714A9AA3A004E1A3A /* MDACDarkCellBackgroundBottom.png */,
+				658E2BE814A9AA3A004E1A3A /* MDACDarkCellBackgroundMiddle.png */,
+				658E2BE914A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedBottom.png */,
+				658E2BEA14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedMiddle.png */,
+				658E2BEB14A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedTop.png */,
+				658E2BEC14A9AA3A004E1A3A /* MDACDarkCellBackgroundTop.png */,
+				658E2BED14A9AA3A004E1A3A /* MDACDarkLinkArrow.png */,
+				658E2BEE14A9AA3A004E1A3A /* MDACDarkLinkArrow@2x.png */,
 				652160CA1362303400113FC9 /* MDACIconMask.png */,
 				652160CB1362303400113FC9 /* MDACIconMask@2x.png */,
 				652160CC1362303400113FC9 /* MDACIconMask~ipad.png */,
@@ -394,6 +458,24 @@
 				652160DB1362309900113FC9 /* Icon114px.png in Resources */,
 				652160F61362BBF500113FC9 /* logo.png in Resources */,
 				652160F71362BBF500113FC9 /* logo@2x.png in Resources */,
+				658E2BEF14A9AA3A004E1A3A /* MDACDarkCellBackgroundBottom.png in Resources */,
+				658E2BF014A9AA3A004E1A3A /* MDACDarkCellBackgroundMiddle.png in Resources */,
+				658E2BF114A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedBottom.png in Resources */,
+				658E2BF214A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedMiddle.png in Resources */,
+				658E2BF314A9AA3A004E1A3A /* MDACDarkCellBackgroundSelectedTop.png in Resources */,
+				658E2BF414A9AA3A004E1A3A /* MDACDarkCellBackgroundTop.png in Resources */,
+				658E2BF514A9AA3A004E1A3A /* MDACDarkLinkArrow.png in Resources */,
+				658E2BF614A9AA3A004E1A3A /* MDACDarkLinkArrow@2x.png in Resources */,
+				658E2BFD14A9AC0B004E1A3A /* MDACDarkCellBackgroundBottom@2x.png in Resources */,
+				658E2BFE14A9AC0B004E1A3A /* MDACDarkCellBackgroundMiddle@2x.png in Resources */,
+				658E2BFF14A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedBottom@2x.png in Resources */,
+				658E2C0014A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedMiddle@2x.png in Resources */,
+				658E2C0114A9AC0B004E1A3A /* MDACDarkCellBackgroundSelectedTop@2x.png in Resources */,
+				658E2C0214A9AC0B004E1A3A /* MDACDarkCellBackgroundTop@2x.png in Resources */,
+				658E2C0714A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png in Resources */,
+				658E2C0814A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png in Resources */,
+				658E2C0914A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png in Resources */,
+				658E2C0A14A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +500,8 @@
 				6538F6BB138B25EF001F72EE /* MDACIconCredit.m in Sources */,
 				6565DE9C1391FE810044FDD0 /* MDACWebViewController.m in Sources */,
 				658E2BE014A97D7F004E1A3A /* MDAboutNavigationController.m in Sources */,
+				658E2BE314A9924F004E1A3A /* MDACStyle.m in Sources */,
+				658E2BE614A99268004E1A3A /* MDACMochiDevStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
