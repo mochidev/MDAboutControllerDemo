@@ -89,6 +89,8 @@ Then, in your UIViewController subclass implementation, implement the following 
 
 Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers (incomplete).
 
+If you would like to include Email support, please add the `MessageUI` framework to your project. The subject will be populated with "App Name 1.0 (55) Support" automatically.
+
 Credits.plist
 ---
 
@@ -105,6 +107,7 @@ Each dictionary should have a `Type` key of type string, which can be a `List` f
 
 - `Text` - the text to represent.
 - `Link` - an optional URL string to link to if the text is tapped.
+- `Email` - an optional Email string that will open an email panel.
 - `Size` - an optional font size of type number. The default is 13pt.
 - `Alignment` - an optional string representing the text alignment. Can be either `Left`, `Right`, or the default, `Center`.
 
