@@ -58,6 +58,12 @@
 				<key>Name</key>
 				<string>MDAboutController</string>
 			</dict>
+			<dict>
+				<key>Link</key>
+				<string>mailto:info@mochidev.com</string>
+				<key>Name</key>
+				<string>Mail Mochi</string>
+			</dict>
 		</array>
 		<key>Title</key>
 		<string>Links</string>
