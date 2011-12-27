@@ -61,6 +61,8 @@
 			<dict>
 				<key>Email</key>
 				<string>support@mochidev.com</string>
+				<key>EmailName</key>
+				<string>Mochi Dev Support</string>
 				<key>Name</key>
 				<string>Contact Us</string>
 			</dict>

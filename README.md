@@ -108,6 +108,7 @@ Each dictionary should have a `Type` key of type string, which can be a `List` f
 - `Text` - the text to represent.
 - `Link` - an optional URL string to link to if the text is tapped.
 - `Email` - an optional Email string that will open an email panel.
+- `EmailName` - an optional name to use in the To: field of the email panel.
 - `Size` - an optional font size of type number. The default is 13pt.
 - `Alignment` - an optional string representing the text alignment. Can be either `Left`, `Right`, or the default, `Center`.
 
