@@ -66,6 +66,12 @@
 				<key>Name</key>
 				<string>Contact Us</string>
 			</dict>
+			<dict>
+				<key>Controller</key>
+				<string>MDAboutControllerViewController</string>
+				<key>Name</key>
+				<string>Inception?</string>
+			</dict>
 		</array>
 		<key>Title</key>
 		<string>Links</string>

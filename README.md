@@ -87,9 +87,9 @@ Then, in your UIViewController subclass implementation, implement the following 
 }
 ```
 
-Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers (incomplete). This can be easily done by using the `MDAboutNavigationController` class, in the same way as `MDAboutController` was used above.
+Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers. This can be easily done by using the `MDAboutNavigationController` class, in the same way as `MDAboutController` was used above.
 
-If you would like to include Email support, please add the `MessageUI` framework to your project. The subject will be populated with "App Name 1.0 (55) Support" automatically.
+If you would like to include Email support directly in your app, please add the `MessageUI` framework to your project, otherwise a new message will be created in Mail.app. The subject will be populated with "App Name 1.0 (55) Support" automatically.
 
 Credits.plist
 ---
@@ -100,15 +100,18 @@ Each dictionary should have a `Type` key of type string, which can be a `List` f
 
 `Type == List` Keys:
 
-- `Items` - an array of dictionaries with mandatory key `Name` and optional keys `Role` and `Link`, all of type string.
+- `Items` - an array of dictionaries with mandatory key `Name` and optional keys `Role` and `Link`, that descripe the rows:
+  - `Role` - an optional string shown in lower case in front of the `Name` string.
+  - `Link` - an optional URL string to link to if the text is tapped.
+  - `Email` - an optional Email string that will open an email panel.
+  - `EmailName` - an optional name to use in the To: field of the email panel.
+  - `Controller` - an optional controller to push on a navigation stack.
 - `Title` - an optional title string to include above the group.
 
 `Type == Text` Keys:
 
 - `Text` - the text to represent.
 - `Link` - an optional URL string to link to if the text is tapped.
-- `Email` - an optional Email string that will open an email panel.
-- `EmailName` - an optional name to use in the To: field of the email panel.
 - `Size` - an optional font size of type number. The default is 13pt.
 - `Alignment` - an optional string representing the text alignment. Can be either `Left`, `Right`, or the default, `Center`.
 
