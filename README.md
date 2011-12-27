@@ -87,7 +87,7 @@ Then, in your UIViewController subclass implementation, implement the following 
 }
 ```
 
-Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers (incomplete).
+Alternatively, if you create the view controller as a part of a navigation controller stack, it will support loading `UIWebView`s and other specified view controllers (incomplete). This can be easily done by using the `MDAboutNavigationController` class, in the same way as `MDAboutController` was used above.
 
 If you would like to include Email support, please add the `MessageUI` framework to your project. The subject will be populated with "App Name 1.0 (55) Support" automatically.
 

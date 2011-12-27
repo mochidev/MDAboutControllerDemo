@@ -56,22 +56,10 @@
     
     // If the view controller doesn't already exist, create it
     if (!navAboutController) {
-        navAboutController = [[UINavigationController alloc] init];
+        navAboutController = [[MDAboutNavigationController alloc] init];
         
         navAboutController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
         navAboutController.modalPresentationStyle = UIModalPresentationFormSheet;
-        
-        MDAboutController *aboutCont = [[MDAboutController alloc] init];
-        
-        aboutCont.backgroundColor = [UIColor groupTableViewBackgroundColor];
-        //aboutCont.hasSimpleBackground = YES;
-        
-        UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(hideAbout:)];
-        aboutCont.navigationItem.rightBarButtonItem = doneButton;
-        [doneButton release];
-        
-        [navAboutController pushViewController:aboutCont animated:NO];
-        [aboutCont release];
     }
     
     // Present to user!

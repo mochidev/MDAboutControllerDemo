@@ -11,7 +11,7 @@
 
 @interface MDAboutControllerViewController : UIViewController {
     MDAboutController *aboutController;
-    UINavigationController *navAboutController;
+    MDAboutNavigationController *navAboutController;
     UINavigationController *transparentNavAboutController;
 }
 
