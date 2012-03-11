@@ -12,9 +12,10 @@
 	<string>Icon57px</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>Icon114px</string>
-		<string>Icon72px</string>
-		<string>Icon57px</string>
+		<string>Icon144px.png</string>
+		<string>Icon114px.png</string>
+		<string>Icon72px.png</string>
+		<string>Icon57px.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.mochidev.${PRODUCT_NAME:rfc1034identifier}</string>
