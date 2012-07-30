@@ -142,7 +142,7 @@ the `MDACMochiDevStyle` style class is included to illustrate how
 a different style may look.
 
 Credits.plist
----
+-------------
 
 To get the most out of MDAboutViewController, be sure to include a `Credits.plist`
 file in your project's resources. This will allow you to add credits,
@@ -175,6 +175,32 @@ or copyright strings, or `Image` for images.
 `Type == Image` Keys:
 
 - `Image` - the name of the image file, much like it is referenced from `UIImage`'s `imageNamed:` method.
+
+For Open Source Software
+------------------------
+
+If you have open source software which you'd like to add to `MDAboutController`
+automatically upon loading, simply implement a `+ (NSDictionary *)MDAboutControllerTextCreditDictionary`
+class method as shown below. Valid keys are the same are `Text` and `Link`, both `NSString`s.
+If your open source user doesn't use `MDAboutController`, nothing will
+happen and code will continue to run just fine.
+
+```obj-c
+@implementation MyOpenSourceMainClass
+
++ (NSDictionary *)MDAboutControllerTextCreditDictionary
+{
+    if (self == [<#MyOpenSourceMainClass#> class]) { // set MyOpenSourceMainClass to whatever the class name actually is!
+        return [NSDictionary dictionaryWithObjectsAndKeys:@"Super awesome stuff powered by MyOpenSourceMainClass, by Mr. Awesome!", @"Text",
+                                                          @"https://awesomesauce.com/", @"Link", nil];
+    }
+    return nil;
+}
+
+...
+
+@end
+```
 
 To Do
 -----
