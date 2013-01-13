@@ -77,7 +77,7 @@
     }
     
     // Present to user!
-    [self presentModalViewController:aboutController animated:YES];
+    [self presentViewController:aboutController animated:YES completion:NULL];
 }
 
 - (IBAction)showNavAbout:(id)sender
@@ -92,7 +92,7 @@
     }
     
     // Present to user!
-    [self presentModalViewController:navAboutController animated:YES];
+    [self presentViewController:navAboutController animated:YES completion:NULL];
 }
 
 - (IBAction)showTransparentNavAbout:(id)sender
@@ -121,12 +121,12 @@
     }
     
     // Present to user!
-    [self presentModalViewController:transparentNavAboutController animated:YES];
+    [self presentViewController:transparentNavAboutController animated:YES completion:NULL];
 }
          
 - (IBAction)hideAbout:(id)sender
 {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 #pragma mark - View lifecycle
