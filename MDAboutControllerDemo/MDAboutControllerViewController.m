@@ -39,13 +39,6 @@
 
 @implementation MDAboutControllerViewController
 
-- (void)dealloc
-{
-    [aboutController release];
-    [navAboutController release];
-    [transparentNavAboutController release];
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -54,17 +47,14 @@
     // Check if the about controller is being shown
     if (aboutController.parentViewController == nil) {
         // Release and set to nil, so we can recreate it if we need to
-        [aboutController release];
         aboutController = nil;
     }
     
     if (navAboutController.parentViewController == nil) {
-        [navAboutController release];
         navAboutController = nil;
     }
     
     if (transparentNavAboutController.parentViewController == nil) {
-        [transparentNavAboutController release];
         transparentNavAboutController = nil;
     }
 }
@@ -114,10 +104,8 @@
         
         UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(hideAbout:)];
         aboutCont.navigationItem.rightBarButtonItem = doneButton;
-        [doneButton release];
         
         [transparentNavAboutController pushViewController:aboutCont animated:NO];
-        [aboutCont release];
     }
     
     // Present to user!

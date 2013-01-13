@@ -43,8 +43,8 @@
 
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet MDAboutControllerViewController *viewController;
+@property (nonatomic, strong) IBOutlet MDAboutControllerViewController *viewController;
 
 @end
