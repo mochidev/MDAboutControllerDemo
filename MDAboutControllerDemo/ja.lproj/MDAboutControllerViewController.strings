@@ -1,0 +1,9 @@
+
+/* Class = "IBUIButton"; normalTitle = "Show About"; ObjectID = "4"; */
+"4.normalTitle" = "Show About";
+
+/* Class = "IBUIButton"; normalTitle = "Show Nav About"; ObjectID = "8"; */
+"8.normalTitle" = "Show Nav About";
+
+/* Class = "IBUIButton"; normalTitle = "Show Transparent Nav About"; ObjectID = "11"; */
+"11.normalTitle" = "Show Transparent Nav About";

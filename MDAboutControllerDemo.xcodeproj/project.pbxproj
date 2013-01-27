@@ -144,10 +144,8 @@
 		652F7EA1135CEF3900B24FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		652F7EA3135CEF3900B24FF3 /* MDAboutControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerAppDelegate.h; sourceTree = "<group>"; };
 		652F7EA4135CEF3900B24FF3 /* MDAboutControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerAppDelegate.m; sourceTree = "<group>"; };
-		652F7EA7135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		652F7EA9135CEF3900B24FF3 /* MDAboutControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAboutControllerViewController.h; sourceTree = "<group>"; };
 		652F7EAA135CEF3900B24FF3 /* MDAboutControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAboutControllerViewController.m; sourceTree = "<group>"; };
-		652F7EAD135CEF3900B24FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDAboutControllerViewController.xib; sourceTree = "<group>"; };
 		6538F6A4138B1FF1001F72EE /* UIImage+DBMaskedImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DBMaskedImageAdditions.h"; sourceTree = "<group>"; };
 		6538F6A5138B1FF2001F72EE /* UIImage+DBMaskedImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DBMaskedImageAdditions.m"; sourceTree = "<group>"; };
 		6538F6A7138B211F001F72EE /* MDACTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDACTitleBar.h; sourceTree = "<group>"; };
@@ -196,6 +194,11 @@
 		65AFED7A150CBEE700B79806 /* MDACIconMask@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconMask@2x~ipad.png"; sourceTree = "<group>"; };
 		65AFED7B150CBEE700B79806 /* MDACIconShadow@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconShadow@2x~ipad.png"; sourceTree = "<group>"; };
 		65BA3AC1161BDA5D0090C1FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65BBD1D816B4BF7800CF7E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		65BBD1D916B4BF7800CF7E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MDAboutControllerViewController.xib; sourceTree = "<group>"; };
+		65BBD1DA16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainWindow.strings; sourceTree = "<group>"; };
+		65BBD1DB16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MDAboutControllerViewController.strings; sourceTree = "<group>"; };
+		65BBD1DC16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +416,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				ja,
 			);
 			mainGroup = 652F7E85135CEF3800B24FF3;
 			productRefGroup = 652F7E91135CEF3800B24FF3 /* Products */;
@@ -528,6 +533,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				652F7E9E135CEF3900B24FF3 /* en */,
+				65BBD1DC16B4BF9300CF7E29 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -535,7 +541,8 @@
 		652F7EA6135CEF3900B24FF3 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				652F7EA7135CEF3900B24FF3 /* en */,
+				65BBD1D816B4BF7800CF7E29 /* Base */,
+				65BBD1DA16B4BF9300CF7E29 /* ja */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -543,7 +550,8 @@
 		652F7EAC135CEF3900B24FF3 /* MDAboutControllerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				652F7EAD135CEF3900B24FF3 /* en */,
+				65BBD1D916B4BF7800CF7E29 /* Base */,
+				65BBD1DB16B4BF9300CF7E29 /* ja */,
 			);
 			name = MDAboutControllerViewController.xib;
 			sourceTree = "<group>";
