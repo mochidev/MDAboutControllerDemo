@@ -36,6 +36,14 @@
 				<string>Contributor</string>
 			</dict>
 			<dict>
+				<key>Link</key>
+				<string>https://github.com/MigrantP</string>
+				<key>Name</key>
+				<string>John Arnold</string>
+				<key>Role</key>
+				<string>Contributor</string>
+			</dict>
+			<dict>
 				<key>Name</key>
 				<string>Mochi Dev</string>
 				<key>Link</key>
@@ -117,7 +125,7 @@
 		<key>Size</key>
 		<string>11</string>
 		<key>Text</key>
-		<string>© 2010 Mochi Development, Inc.
+		<string>© 2013 Mochi Development, Inc.
 See license for distribution.</string>
 		<key>Type</key>
 		<string>Text</string>

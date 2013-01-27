@@ -3,7 +3,7 @@
 //  MDAboutController
 //
 //  Created by Dimitri Bouniol on 4/18/11.
-//  Copyright 2012 Mochi Development Inc. All rights reserved.
+//  Copyright 2013 Mochi Development Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -90,6 +90,10 @@
 		65AFED7C150CBEE700B79806 /* MDACIconMask@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AFED7A150CBEE700B79806 /* MDACIconMask@2x~ipad.png */; };
 		65AFED7D150CBEE700B79806 /* MDACIconShadow@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AFED7B150CBEE700B79806 /* MDACIconShadow@2x~ipad.png */; };
 		65BA3AC2161BDA5D0090C1FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BA3AC1161BDA5D0090C1FF /* Default-568h@2x.png */; };
+		65BBD1E616B4FE3600CF7E29 /* MDACIconOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E216B4FE3600CF7E29 /* MDACIconOverlay.png */; };
+		65BBD1E716B4FE3600CF7E29 /* MDACIconOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E316B4FE3600CF7E29 /* MDACIconOverlay@2x.png */; };
+		65BBD1E816B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E416B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png */; };
+		65BBD1E916B4FE3600CF7E29 /* MDACIconOverlay~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E516B4FE3600CF7E29 /* MDACIconOverlay~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,6 +203,10 @@
 		65BBD1DA16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainWindow.strings; sourceTree = "<group>"; };
 		65BBD1DB16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MDAboutControllerViewController.strings; sourceTree = "<group>"; };
 		65BBD1DC16B4BF9300CF7E29 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65BBD1E216B4FE3600CF7E29 /* MDACIconOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDACIconOverlay.png; sourceTree = "<group>"; };
+		65BBD1E316B4FE3600CF7E29 /* MDACIconOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay@2x.png"; sourceTree = "<group>"; };
+		65BBD1E416B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay@2x~ipad.png"; sourceTree = "<group>"; };
+		65BBD1E516B4FE3600CF7E29 /* MDACIconOverlay~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +270,10 @@
 		65262AB8135FA02500F99CB5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				65BBD1E216B4FE3600CF7E29 /* MDACIconOverlay.png */,
+				65BBD1E316B4FE3600CF7E29 /* MDACIconOverlay@2x.png */,
+				65BBD1E416B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png */,
+				65BBD1E516B4FE3600CF7E29 /* MDACIconOverlay~ipad.png */,
 				658E2C0314A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle.png */,
 				658E2C0414A9AE8A004E1A3A /* MDACDarkCellBackgroundSelectedSingle@2x.png */,
 				658E2C0514A9AE8A004E1A3A /* MDACDarkCellBackgroundSingle.png */,
@@ -497,6 +509,10 @@
 				65AFED7C150CBEE700B79806 /* MDACIconMask@2x~ipad.png in Resources */,
 				65AFED7D150CBEE700B79806 /* MDACIconShadow@2x~ipad.png in Resources */,
 				65BA3AC2161BDA5D0090C1FF /* Default-568h@2x.png in Resources */,
+				65BBD1E616B4FE3600CF7E29 /* MDACIconOverlay.png in Resources */,
+				65BBD1E716B4FE3600CF7E29 /* MDACIconOverlay@2x.png in Resources */,
+				65BBD1E816B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png in Resources */,
+				65BBD1E916B4FE3600CF7E29 /* MDACIconOverlay~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

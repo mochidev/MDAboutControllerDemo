@@ -163,6 +163,7 @@ or copyright strings, or `Image` for images.
   - `Email` - an optional Email string that will open an email panel.
   - `EmailName` - an optional name to use in the To: field of the email panel.
   - `Controller` - an optional controller to push on a navigation stack.
+  - `Identifier` - an optional identifier to identify individual items.
 - `Title` - an optional title string to include above the group.
 
 `Type == Text` Keys:
@@ -218,7 +219,7 @@ Please see https://mochidev.com/codestyle
 License
 -------
 
-Copyright (c) 2012 Dimitri Bouniol, Mochi Development, Inc.
+Copyright (c) 2013 Dimitri Bouniol, Mochi Development, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software, associated artwork, and documentation files (the "Software"),
@@ -253,3 +254,4 @@ Credits
 - Created by [Dimitri Bouniol](http://twitter.com/dimitribouniol) for [Mochi Development, Inc.](http://mochidev.com/)
 - Contributed to by [Doron Katz](http://doronkatz.com) of [DoronKatz.com](http://doronkatz.com)
 - Contributed to by [Denis Hennessy](http://hennessynet.com) of [Peer Assembly](http://www.peerassembly.com)
+- Contributed to by [John Arnold](https://github.com/MigrantP) of [Handelabra](http://handelabra.com)
