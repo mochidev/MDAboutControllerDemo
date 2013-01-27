@@ -94,6 +94,7 @@
 		65BBD1E716B4FE3600CF7E29 /* MDACIconOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E316B4FE3600CF7E29 /* MDACIconOverlay@2x.png */; };
 		65BBD1E816B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E416B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png */; };
 		65BBD1E916B4FE3600CF7E29 /* MDACIconOverlay~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1E516B4FE3600CF7E29 /* MDACIconOverlay~ipad.png */; };
+		65BBD1EB16B52FAF00CF7E29 /* SampleAppCast.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65BBD1EA16B52FAF00CF7E29 /* SampleAppCast.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -207,6 +208,7 @@
 		65BBD1E316B4FE3600CF7E29 /* MDACIconOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay@2x.png"; sourceTree = "<group>"; };
 		65BBD1E416B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay@2x~ipad.png"; sourceTree = "<group>"; };
 		65BBD1E516B4FE3600CF7E29 /* MDACIconOverlay~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MDACIconOverlay~ipad.png"; sourceTree = "<group>"; };
+		65BBD1EA16B52FAF00CF7E29 /* SampleAppCast.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleAppCast.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +391,7 @@
 				652F7EA0135CEF3900B24FF3 /* MDAboutController-Prefix.pch */,
 				652F7EA1135CEF3900B24FF3 /* main.m */,
 				6525E0881360071900E70F9D /* Credits.plist */,
+				65BBD1EA16B52FAF00CF7E29 /* SampleAppCast.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				65BBD1E716B4FE3600CF7E29 /* MDACIconOverlay@2x.png in Resources */,
 				65BBD1E816B4FE3600CF7E29 /* MDACIconOverlay@2x~ipad.png in Resources */,
 				65BBD1E916B4FE3600CF7E29 /* MDACIconOverlay~ipad.png in Resources */,
+				65BBD1EB16B52FAF00CF7E29 /* SampleAppCast.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
