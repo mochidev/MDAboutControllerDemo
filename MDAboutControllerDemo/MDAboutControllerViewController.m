@@ -63,7 +63,7 @@
 {
     // If the view controller doesn't already exist, create it
     if (!aboutController) {
-        aboutController = [[MDAboutController alloc] initWithStyle:[MDACMochiDevStyle style]];
+        aboutController = [[MDAboutNavigationController alloc] initWithStyle:[MDACMochiDevStyle style]];
     }
     
     // Present to user!

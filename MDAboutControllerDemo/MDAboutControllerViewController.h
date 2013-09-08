@@ -39,7 +39,7 @@
 #import "MDACClasses.h"
 
 @interface MDAboutControllerViewController : UIViewController {
-    MDAboutController *aboutController;
+    MDAboutNavigationController *aboutController;
     MDAboutNavigationController *navAboutController;
     UINavigationController *transparentNavAboutController;
 }
